@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="btn home">
+                    <a href="./">
+                        <img src="./icons/home.png" alt=""> Home
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="shopping-bag">
+            <a href="./index.html">
+                <img src="./icons/bag.png" alt="cart">
+                Cart
+                <div class="total-items-in-cart">
+                    0
+                </div>
+            </a>
+        </div>
+    </header>
+
+        <div class="product-list">
+            <div class="cart">
+                <div class="cart-header">
+                    <div class="column1">Item</div>
+                    <div class="column2">Unit price</div>
+                    <div class="column3">Units</div>
+                </div>
+                <div class="cart-items">
+                    <!-- render cart items here -->
+                  
+                </div>
+                <div class="cart-footer">
+                    <div class="subtotal">
+                        
+                    </div>
+                    <div class="checkout">
+                        Proceed to checkout
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="/products.js"></script>
+    <script src="/app.js"></script>
+</body>
+</html>
